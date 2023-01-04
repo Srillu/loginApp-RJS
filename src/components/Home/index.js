@@ -27,8 +27,10 @@ class Home extends Component {
     return (
       <div className="bg-container">
         <div className="log-container">
-          <Message isLoggedIn={isLoggedIn} />
-          {authButton}
+          <div>
+            <Message isLoggedIn={isLoggedIn} />
+            {authButton}
+          </div>
         </div>
       </div>
     )

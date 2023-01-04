@@ -10,8 +10,15 @@
 }
 
 .log-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
   background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
   border-radius: 15px;
   padding: 20px;
   text-align: center;
+  min-width: 30%;
+  min-height: 50%;
 }
